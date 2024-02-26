@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFE8D4;
+}
+.maintext{
+    display: flex;
+    font-size: 4em;
+padding-left: 6.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF52A0;
+    font-weight: lighter;
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10em;
+    font-weight: bold;
+    color: #1C69E6;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10em;
+    font-weight: bold;
+    color: #1C69E6;
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-item {
+    position: relative;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #ccc,
+        0 3px 0 #ccc,
+        0 4px 0 #ccc,
+        0 7px 4px rgba(255, 255, 255, .4);
+    animation: bounce .8s ease infinite alternate;
+}
+#Welcome {
+    opacity: 1;
+    transition: 2s opacity;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-item:nth-child(1) {
+    animation-delay: .2s;
+    color: #FF52A0;
+}
+.title-item:nth-child(3) {
+    animation-delay: .2s;
+    color: #FFAB23;
+}
+
+.title-item:nth-child(4) {
+    animation-delay: .4s;
+    color: #08C771;
+}
+
+.title-item:nth-child(5) {
+    animation-delay: .1s;
+    color: #FF52A0;
+}
+
+.title-item:nth-child(6) {
+    animation-delay: .3s;
+    color: #FFAB23;
+}
+
+.title-item:nth-child(7) {
+    animation-delay: .5s;
+    color: #08C771;
+}
+
+.title-item:nth-child(8) {
+    animation-delay: .1s;
+}
+
+.title-item:nth-child(9) {
+    animation-delay: .2s;
+    color: #FF52A0;
+}
+
+@keyframes bounce {100% {
+     transform: translateY(-40px);}}
