@@ -178,6 +178,7 @@ section.contact{
 }
 
     .mail{ 
+
         background:linear-gradient(to top,#FF52A0, rgba(255,255,255,0.3));
         left:0; 
         top:0; 
@@ -185,7 +186,7 @@ section.contact{
         width: 10rem;
         border-radius: 90%;
         position: absolute;
-        padding-right: 5%;
+        padding-right: 4%;
 
         offset-path: path("M 284.645 531.153 C -103.355 331.153 1334.64 347.153 1215.14 557.153 C 1095.64 767.153 911.145 483.153 698.145 447.153 C 562.922 379.787 672.645 731.153 284.645 531.153 Z");
         animation: followpath 25s linear infinite;
@@ -205,9 +206,24 @@ section.contact{
         animation: followpath 25s linear infinite;
         offset-rotate: 0deg;
     }
-  
 
-   @keyframes followpath {
+    .github{
+        
+        background:linear-gradient(to top,#08C771, rgba(255,255,255,0.3));
+        left:0; 
+        top:0; 
+        height: 10rem;
+        width: 10rem;
+        border-radius: 90%;
+        position: absolute;
+
+        offset-path: path("M1055 364.6C666.798 283.5 1226 598 1042.2 630.1C766.225 678.299 552.081 161.842 409.5 403C370.976 468.159 294.904 526.764 370.202 589.632C445.5 652.5 1443.2 445.7 1055 364.6Z");
+        animation: followpath 25s linear infinite;
+        offset-rotate: 0deg;
+    }
+    
+
+ @keyframes followpath {
         to{
             offset-distance: 100%;
         }
