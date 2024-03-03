@@ -45,8 +45,9 @@ nav ul li a:focus {
 }
  img{ 
     padding-left: 12%;
-    width:18em;
-    height:20em;
+  
+    height:100%;
+    max-width: 100%;
 }
    
 body{
